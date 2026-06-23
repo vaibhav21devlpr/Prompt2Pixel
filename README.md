@@ -103,13 +103,27 @@ Prompt2Pixel is a full-stack AI SaaS application that allows users to generate h
 ```text
 Prompt2Pixel
 │
+├── LICENSE
+├── README.md
+├── .gitignore
+├── package.json
+├── package-lock.json
+│
+├── screenshots
+│   ├── home.png
+│   ├── login.png
+│   ├── payment.png
+│   └── generate-image.png
+│
 ├── client
 │   ├── public
 │   │   ├── favicon.svg
-│   │   └── icons.svg
+│   │   └── assets
 │   │
 │   ├── src
 │   │   ├── assets
+│   │   │   ├── assets.js
+│   │   │   └── images
 │   │   │
 │   │   ├── components
 │   │   │   ├── Description.jsx
@@ -136,6 +150,7 @@ Prompt2Pixel
 │   │
 │   ├── .env
 │   ├── package.json
+│   ├── package-lock.json
 │   └── vite.config.js
 │
 ├── server
@@ -161,11 +176,10 @@ Prompt2Pixel
 │   │
 │   ├── server.js
 │   ├── .env
-│   └── package.json
+│   ├── package.json
+│   └── package-lock.json
 │
-├── .gitignore
-├── package.json
-└── README.md
+└── node_modules (ignored)
 ```
 
 ---
