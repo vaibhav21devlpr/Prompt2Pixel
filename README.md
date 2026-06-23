@@ -11,6 +11,26 @@ An AI-powered SaaS platform that transforms text prompts into stunning AI-genera
 
 ---
 
+## 📸 Screenshots
+
+### Home Page
+
+![Home Page](./screenshots/home.png)
+
+### Login Page
+
+![Login Page](./screenshots/login.png)
+
+### Image Generation Page
+
+![Image Generation](./screenshots/generate-image.png)
+
+### Payment Page
+
+![Payment Page](./screenshots/payment.png)
+
+---
+
 ## 📖 Overview
 
 Prompt2Pixel is a full-stack AI SaaS application that allows users to generate high-quality images from text prompts. The platform follows a credit-based system where users can purchase credits using Razorpay and spend them to generate AI images.
